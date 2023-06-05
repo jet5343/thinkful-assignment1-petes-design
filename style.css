@@ -5,13 +5,17 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+    background-color: #eae2b7
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", Times, serif;
+font-family: "Playfair Display", Times, serif;
+
+  
+    
 }
 
 article {
@@ -25,6 +29,7 @@ article div {
 
 p {
   line-height: 1.5;
+
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -43,7 +48,41 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
+header{}
+head{}
+p{
+    color: #003049;
+    
+}
+h1,
+    h2,
+        h3{
+            margin: auto;
+            color: #003049;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px}
+nav{
+    text-align: center;
+    word-spacing: 20px;
+    margin: 20px;
+    padding-bottom: 40px;
+    }
+nav a {
+    color: red;
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif; 
+}
 
+nav a:hover {
+    color: mediumpurple
+}
+
+
+nav a:visited {
+    color: darkred
+}
 .image-circle {
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #003049;
 }
