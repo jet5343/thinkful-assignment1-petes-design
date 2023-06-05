@@ -50,18 +50,30 @@ hr {
 
 header{}
 head{}
+.circle-icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.about-blurb{
+    padding-top: 10px;
+
+}
 p{
     color: #003049;
     
 }
 h1,
-    h2,
-        h3{
-            margin: auto;
-            color: #003049;
-            text-align: center;
-            padding-bottom: 20px;
-            padding-top: 20px}
+h2,
+h3{
+   margin: auto;
+   color: #003049;
+   text-align: center;
+   padding-top: 10px}
+h3{
+   padding-bottom: 20px
+        
+}
 nav{
     text-align: center;
     word-spacing: 20px;
@@ -85,4 +97,8 @@ nav a:visited {
     border-style: solid;
     border-radius: 50%;
     border-color: #003049;
+}
+
+#contact-footer{
+    padding-top: 30px;
 }
